@@ -1,2 +1,5 @@
 /data/
 
+# Kaggle temporary files
+.kaggle_job/
+.kaggle_runtime/

@@ -1,0 +1,105 @@
+[{"stream_name":"stderr","time":5.62287928,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.622916234,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.394945056,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.394970437,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.394975534,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.394979312,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.949290743,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.949319775,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.949324704,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.949328664,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.281456111,"data":"Input: /kaggle/input/datasets/callingzeng/recsys-baby-20261113 | Output: /kaggle/working/recsys\n"}
+,{"stream_name":"stdout","time":8.281490767,"data":"Imported recall files: 0\n"}
+,{"stream_name":"stdout","time":11.013462224,"data":"Dataset: /kaggle/input/datasets/callingzeng/recsys-baby-20261113\n"}
+,{"stream_name":"stdout","time":11.013489166,"data":"Users: 19,445 | Items: 7,050 | Interactions: 160,792\n"}
+,{"stream_name":"stdout","time":13.334097583,"data":"Users: 19,445 | Items: 7,050\n"}
+,{"stream_name":"stdout","time":13.33413841,"data":"Train: 118,551 | Validation: 20,559 | Test: 21,682\n"}
+,{"stream_name":"stdout","time":13.334143936,"data":"\n"}
+,{"stream_name":"stdout","time":13.334147473,"data":"Offline computation completed:\n"}
+,{"stream_name":"stdout","time":73.700303908,"data":"ItemCF online retrieval completed | Top-100\n"}
+,{"stream_name":"stdout","time":73.700340755,"data":"Saved to: /kaggle/working/recsys/recall\n"}
+,{"stream_name":"stdout","time":74.109896494,"data":"\n"}
+,{"stream_name":"stdout","time":74.109932382,"data":"Experiment: itemcf-rating-nb50\n"}
+,{"stream_name":"stdout","time":74.109937869,"data":"User: 0\n"}
+,{"stream_name":"stdout","time":74.109941898,"data":"History: [0, 1587, 1879]\n"}
+,{"stream_name":"stdout","time":74.111023224,"data":"Top-20: [(880, 1.102102518081665), (4511, 1.0206207036972046), (5403, 0.9660072326660156), (2491, 0.9021097421646118), (638, 0.8783508539199829), (4144, 0.8020734786987305), (6165, 0.7524115443229675), (6244, 0.7524115443229675), (1768, 0.7245919704437256), (1663, 0.7107168436050415), (386, 0.6789067983627319), (3131, 0.6255632638931274), (5125, 0.6143414974212646), (6379, 0.6143414378166199), (5166, 0.610584020614624), (6253, 0.5977281332015991), (6145, 0.5572781562805176), (4354, 0.5252286195755005), (5058, 0.5183911919593811), (1728, 0.5148611664772034)]\n"}
+,{"stream_name":"stdout","time":176.939617532,"data":"ItemCF | Validation | Top-20\n"}
+,{"stream_name":"stdout","time":176.945276321,"data":"\n"}
+,{"stream_name":"stdout","time":176.945350501,"data":"Best configuration by Validation Recall@20:\n"}
+,{"stream_name":"stdout","time":176.945371271,"data":"itemcf-binary-nball\n"}
+,{"stream_name":"stdout","time":176.945375194,"data":"\n"}
+,{"stream_name":"stdout","time":176.945378461,"data":"ItemCF | Test | Top-20 (Validation-selected model)\n"}
+,{"stream_name":"stdout","time":176.947009673,"data":"\n"}
+,{"stream_name":"stdout","time":176.947026373,"data":"Saved: /kaggle/working/recsys/results/itemcf_all_metrics.csv\n"}
+,{"stream_name":"stdout","time":197.240934768,"data":"Swing similarity computation: 20.00s\n"}
+,{"stream_name":"stdout","time":197.240973324,"data":"Non-zero similarities: 90,578\n"}
+,{"stream_name":"stdout","time":233.156818204,"data":"Swing online retrieval completed | Top-100\n"}
+,{"stream_name":"stdout","time":233.156852864,"data":"Saved to: /kaggle/working/recsys/recall\n"}
+,{"stream_name":"stdout","time":306.667706597,"data":"Swing | Validation | Top-20\n"}
+,{"stream_name":"stdout","time":306.672038634,"data":"\n"}
+,{"stream_name":"stdout","time":306.672061271,"data":"Best Swing configuration: swing-binary-a1-nb10\n"}
+,{"stream_name":"stdout","time":306.672067371,"data":"\n"}
+,{"stream_name":"stdout","time":306.672072207,"data":"Test | Top-20\n"}
+,{"stream_name":"stdout","time":306.674476845,"data":"\n"}
+,{"stream_name":"stdout","time":306.674494164,"data":"Saved: /kaggle/working/recsys/results/swing_all_metrics.csv\n"}
+,{"stream_name":"stdout","time":362.144575557,"data":"Example user 0: [(1886, 0.33030306021080313), (5375, 0.19652622673815653), (3865, 0.17971000920361002), (3131, 0.14476481553811485), (3946, 0.14476481553811485), (1232, 0.14348334561231207), (3063, 0.14348334561231207), (638, 0.12537001008034565), (1434, 0.12537001008034565), (2194, 0.12537001008034565)]\n"}
+,{"stream_name":"stdout","time":362.144618814,"data":"Saved to: /kaggle/working/recsys/recall\n"}
+,{"stream_name":"stdout","time":437.699376227,"data":"Best experiment: usercf-pop-penalty-nb100\n"}
+,{"stream_name":"stdout","time":437.701326226,"data":"Saved to: /kaggle/working/recsys/results/usercf_all_metrics.csv\n"}
+,{"stream_name":"stdout","time":445.057323029,"data":"Device: cuda | Experiments: 12\n"}
+,{"stream_name":"stdout","time":468.325126894,"data":"dualtower-pointwise-bce | train loss: 0.5907 | offline sec: 17.8\n"}
+,{"stream_name":"stdout","time":485.44521626,"data":"dualtower-pairwise-triplet | train loss: 0.0729 | offline sec: 16.6\n"}
+,{"stream_name":"stdout","time":502.879220641,"data":"dualtower-pairwise-bpr | train loss: 0.5025 | offline sec: 16.9\n"}
+,{"stream_name":"stdout","time":519.050695736,"data":"dualtower-listwise-inbatch | train loss: 3.5366 | offline sec: 15.7\n"}
+,{"stream_name":"stdout","time":532.042371666,"data":"dualtower-listwise-inbatch-batch1024 | train loss: 3.8818 | offline sec: 12.5\n"}
+,{"stream_name":"stdout","time":548.239363657,"data":"dualtower-listwise-inbatch-biascorrected | train loss: 3.4015 | offline sec: 15.7\n"}
+,{"stream_name":"stdout","time":563.48447429,"data":"dualtower-listwise-id-only | train loss: 3.28 | offline sec: 14.8\n"}
+,{"stream_name":"stdout","time":578.685544774,"data":"dualtower-listwise-id-text | train loss: 3.3926 | offline sec: 14.7\n"}
+,{"stream_name":"stdout","time":594.253276502,"data":"dualtower-listwise-id-image | train loss: 3.4844 | offline sec: 15.1\n"}
+,{"stream_name":"stdout","time":609.410794338,"data":"dualtower-listwise-id-only-biascorrected | train loss: 3.2847 | offline sec: 14.7\n"}
+,{"stream_name":"stdout","time":624.862991401,"data":"dualtower-listwise-id-text-biascorrected | train loss: 3.4058 | offline sec: 15.0\n"}
+,{"stream_name":"stdout","time":640.573552473,"data":"dualtower-listwise-id-image-biascorrected | train loss: 3.4121 | offline sec: 15.2\n"}
+,{"stream_name":"stdout","time":646.53443498,"data":"dualtower-pointwise-bce | rows: 1944500 | online sec: 3.23\n"}
+,{"stream_name":"stdout","time":652.232484823,"data":"dualtower-pairwise-triplet | rows: 1944500 | online sec: 3.02\n"}
+,{"stream_name":"stdout","time":657.840115924,"data":"dualtower-pairwise-bpr | rows: 1944500 | online sec: 2.98\n"}
+,{"stream_name":"stdout","time":663.555465956,"data":"dualtower-listwise-inbatch | rows: 1944500 | online sec: 3.04\n"}
+,{"stream_name":"stdout","time":669.353545306,"data":"dualtower-listwise-inbatch-batch1024 | rows: 1944500 | online sec: 3.06\n"}
+,{"stream_name":"stdout","time":675.192303683,"data":"dualtower-listwise-inbatch-biascorrected | rows: 1944500 | online sec: 3.07\n"}
+,{"stream_name":"stdout","time":680.86644601,"data":"dualtower-listwise-id-only | rows: 1944500 | online sec: 3.03\n"}
+,{"stream_name":"stdout","time":686.518835143,"data":"dualtower-listwise-id-text | rows: 1944500 | online sec: 3.01\n"}
+,{"stream_name":"stdout","time":692.198775195,"data":"dualtower-listwise-id-image | rows: 1944500 | online sec: 2.97\n"}
+,{"stream_name":"stdout","time":697.94679096,"data":"dualtower-listwise-id-only-biascorrected | rows: 1944500 | online sec: 3.02\n"}
+,{"stream_name":"stdout","time":703.708106668,"data":"dualtower-listwise-id-text-biascorrected | rows: 1944500 | online sec: 3.02\n"}
+,{"stream_name":"stdout","time":709.454557613,"data":"dualtower-listwise-id-image-biascorrected | rows: 1944500 | online sec: 3.0\n"}
+,{"stream_name":"stdout","time":834.155334361,"data":"Best on Validation Recall@20: dualtower-listwise-id-text-biascorrected\n"}
+,{"stream_name":"stdout","time":834.157164387,"data":"Saved: /kaggle/working/recsys/results/dualtower_all_metrics.csv\n"}
+,{"stream_name":"stdout","time":836.021499403,"data":"Device: cuda Train/Val/Test: 118551 20559 21682\n"}
+,{"stream_name":"stdout","time":866.02878616,"data":"none    loss=0.2797 train=12.4s params=1,448,865\n"}
+,{"stream_name":"stdout","time":879.042045407,"data":"linear  loss=0.3193 train=12.7s params=1,451,233\n"}
+,{"stream_name":"stdout","time":892.354189036,"data":"mlp     loss=0.2782 train=13.0s params=1,452,289\n"}
+,{"stream_name":"stdout","time":906.608495127,"data":"fm      loss=0.2605 train=13.9s params=1,451,131\n"}
+,{"stream_name":"stdout","time":920.391107228,"data":"dcn2    loss=0.2777 train=13.5s params=1,451,413\n"}
+,{"stream_name":"stdout","time":934.690767136,"data":"dcn3    loss=0.2707 train=14.0s params=1,451,503\n"}
+,{"stream_name":"stdout","time":951.775519911,"data":"Recall files: 32 candidate pairs: 20508278 users: 19445\n"}
+,{"stream_name":"stdout","time":1353.641989639,"data":"threetower-none cached= 0.28 online= 8.14 s\n"}
+,{"stream_name":"stdout","time":1426.285175341,"data":"threetower-linear cached= 0.27 online= 8.62 s\n"}
+,{"stream_name":"stdout","time":1501.13826336,"data":"threetower-mlp cached= 0.26 online= 9.19 s\n"}
+,{"stream_name":"stdout","time":1576.413071254,"data":"threetower-fm cached= 0.28 online= 10.73 s\n"}
+,{"stream_name":"stdout","time":1649.048661138,"data":"threetower-dcn2 cached= 0.25 online= 9.67 s\n"}
+,{"stream_name":"stdout","time":1722.120291908,"data":"threetower-dcn3 cached= 0.25 online= 10.33 s\n"}
+,{"stream_name":"stdout","time":1722.127747125,"data":"\n"}
+,{"stream_name":"stdout","time":1722.127766579,"data":"Validation @20 (selection only):\n"}
+,{"stream_name":"stdout","time":1722.134714752,"data":"\n"}
+,{"stream_name":"stdout","time":1722.134736281,"data":"Best on Validation: threetower-dcn2\n"}
+,{"stream_name":"stdout","time":1722.134749524,"data":"Test @20 (report only):\n"}
+,{"stream_name":"stdout","time":1722.13672476,"data":"Saved: /kaggle/working/recsys/prerank and /kaggle/working/recsys/results/threetower_all_metrics.csv\n"}
+,{"stream_name":"stdout","time":1728.489820659,"data":"COMPLETE: 32 recall experiments; 6 pre-ranking experiments\n"}
+,{"stream_name":"stderr","time":1734.340483163,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1734.340507247,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1734.497066871,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1734.49709755,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1735.213457535,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1735.314713991,"data":"[NbConvertApp] Writing 185317 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1737.726167796,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1738.5675347,"data":"[NbConvertApp] Writing 702032 bytes to __results__.html\n"}
+]
