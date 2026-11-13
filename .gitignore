@@ -3,3 +3,5 @@
 # Kaggle temporary files
 .kaggle_job/
 .kaggle_runtime/
+# Generated evaluation candidates
+results/analysis/retrieval_rrf_all_candidates.parquet
